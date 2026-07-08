@@ -67,3 +67,7 @@
 
 # s1.difference(s2)
 # Show values that are in s1 but not in s2.
+
+# Requirements for Day 2 (pandas + NumPy practice)
+pandas==3.0.3
+numpy==2.4.6
