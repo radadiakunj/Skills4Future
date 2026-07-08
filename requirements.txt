@@ -1,0 +1,69 @@
+# This task uses only Python built-in features.
+# No external libraries are required.
+
+#Tuples
+#In tuples, we can't change the values of the elements, but we can change the values of the elements of the list inside the tuple.
+#In tuples, we can't add or remove elements, but we can add or remove elements of the list inside the tuple.
+#In tuples, we can't sort the elements, but we can sort the elements of the list inside the tuple.
+#In tuples, we can't reverse the elements, but we can reverse the elements of the list inside the tuple.
+#In tuples, we can't count the number of occurrences of an element, but we can count the number of occurrences of an element of the list inside the tuple.
+#In tuples, we can't find the index of an element, but we can find the index of an element of the list inside the tuple.
+#In tuples, we can't find the length of the tuple, but we can find the length of the list inside the tuple.
+#In tuples, we can't slice the tuple, but we can slice the list inside the tuple.
+#In tuples, we can't check if an element is in the tuple, but we can check if an element is in the list inside the tuple.
+#In tuples, we can't add or remove elements of the tuple, but we can add or remove elements of the list inside the tuple.
+
+# data = (2, 4, 6, 4, 8)
+# Creates a tuple with 5 values.
+# Think of it like a sealed list: you can read values, but can’t edit them directly.
+
+# data.count(4)
+# Counts how many times 4 appears.
+# Here answer is 2.
+
+# data.index(6)
+# Tells the position of 6 (index starts from 0).
+# Here answer is 2 (3rd place).
+
+# len(data)
+# Gives total number of items in the tuple.
+# Here answer is 5.
+
+# data[1:4]
+# Slicing: takes items from index 1 to 3 (4 is excluded).
+# Here result is (4, 6, 4).
+
+# 8 in data
+# Membership check: asks “Is 8 present in tuple?”
+# Here answer is True.
+
+#Sets
+#In sets, we can't change the values of the elements, but we can change the values of the elements of the list inside the set.
+#In sets, we can't add or remove elements, but we can add or remove elements of the list inside the set.
+#In sets, we can't sort the elements, but we can sort the elements of the list inside the set.
+#In sets, we can't reverse the elements, but we can reverse the elements of the list inside the set.
+#In sets, we can't count the number of occurrences of an element, but we can count the number of occurrences of an element of the list inside the set.
+#In sets, we can't find the index of an element, but we can find the index of an element of the list inside the set.
+#In sets, we can't find the length of the set, but we can find the length of the list inside the set.
+#In sets, we can't slice the set, but we can slice the list inside the set.
+#In sets, we can't check if an element is in the set, but we can check if an element is in the list inside the set.
+#In sets, we can't add or remove elements of the set, but we can add or remove elements of the list inside the set.
+
+# s1 = {1, 2, 3} and s2 = {3, 4, 5}
+# You create two sets.
+
+# s1.add(6)
+# Add one new value (6) into s1.
+
+# s1.update([7, 8])
+# Add multiple values (7 and 8) into s1.
+
+# s1.union(s2)
+# Combine both sets and show all unique values from both.
+
+# s1.intersection(s2)
+# Show only common values in both sets.
+# (Here common value is 3.)
+
+# s1.difference(s2)
+# Show values that are in s1 but not in s2.
